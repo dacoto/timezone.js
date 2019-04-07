@@ -1,5 +1,5 @@
 <p align="center">
-<img src="timezone.png"  width="250">
+<img src="timezone.png"  height="100">
 </p>
 
 <p align="center">
