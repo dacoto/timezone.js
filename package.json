@@ -1,5 +1,5 @@
 {
-    "name": "timezone.js",
+    "name": "@dacoto/timezone.js",
     "version": "0.0.1",
     "description": "A library to obtain the list of time zones",
     "main": "index.js",
