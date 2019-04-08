@@ -1,6 +1,6 @@
 {
     "name": "@dacoto/timezone.js",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A library to obtain the list of time zones",
     "main": "src/js/timezone.js",
     "repository": "https://github.com/dacoto/timezone.js.git",
