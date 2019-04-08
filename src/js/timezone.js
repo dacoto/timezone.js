@@ -1,7 +1,7 @@
 'use strict';
 
 class Timezone {
-    
+
     /**
      * Method to obtain all the listing
      */
@@ -18,4 +18,6 @@ class Timezone {
     }
 }
 
-export default Timezone;
+global.Timezone = Timezone;
+
+export {Timezone as default}

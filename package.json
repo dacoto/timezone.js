@@ -1,8 +1,8 @@
 {
     "name": "@dacoto/timezone.js",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "description": "A library to obtain the list of time zones",
-    "main": "index.js",
+    "main": "src/js/timezone.js",
     "repository": "https://github.com/dacoto/timezone.js.git",
     "author": "David Cortés <dacoto97@hotmail.com>",
     "license": "MIT",

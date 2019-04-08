@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timezone.js</title>
+    <link rel="shortcut icon" id="favicon" href="../timezone.png">
+</head>
+<body>
+<h2>Time zones:</h2>
+<div id="timezoneList"></div>
+<script src="../dist/timezone.js"></script>
+<script>
+    var output = '<ul>';
+    for (var timezone in Timezone.getAll()) {
+        output += '<li>' + timezone + '</li>';
+    }
+    output += '</ul>';
+    document.getElementById('timezoneList').outerHTML = output;
+</script>
+</body>
+</html>
