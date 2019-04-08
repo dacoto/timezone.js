@@ -23,6 +23,31 @@ npm install @dacoto/timezone.js
 npm add @dacoto/timezone.js
 ```
 
+## Usage
+
+#####Include
+
+``` cmd
+    import Timezone from '@dacoto/timezone.js';
+```
+or
+``` cmd
+    <script src="dist/timezone.js"></script>
+```
+##### Use in javascript
+
+- List time zones
+
+``` cmd
+    Timezone.getAll(); // {"Pacific/Niue":"(GMT-11:00) Niue","Pacific/Pago_Pago":"(GMT-11:00 ...
+```
+
+- Get time zone name
+
+``` cmd
+    Timezone.getTimezone('Europe/Madrid'); // (GMT+01:00) Madrid
+```
+
 ## License
 
 MIT
