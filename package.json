@@ -1,10 +1,10 @@
 {
     "name": "@dacoto/timezone.js",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A library to obtain the list of time zones",
     "main": "src/js/timezone.js",
     "repository": "https://github.com/dacoto/timezone.js.git",
-    "author": "David Cortés <dacoto97@hotmail.com>",
+    "author": "David Cortés <cortestoledanodavid@gmail.com>",
     "license": "MIT",
     "scripts": {
         "dev": "npm run development",
@@ -15,6 +15,6 @@
     },
     "devDependencies": {
         "webpack": "^4.43.0",
-        "webpack-cli": "^3.3.11"
+        "webpack-cli": "^3.3.12"
     }
 }
